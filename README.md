@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ibetovski/angularjs-validation-repeat-field.svg?branch=master)](https://travis-ci.org/ibetovski/angularjs-validation-repeat-field)
+
 # Synopsis:
 Two way matching repeat field for HTML forms. You can use that directive for repeat password or repeat email address scenarios for your HTML form.
 
