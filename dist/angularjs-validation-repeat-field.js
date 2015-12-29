@@ -1,4 +1,14 @@
-(function(angular) {
+(function (root, factory) {
+  if (typeof exports === 'object') {
+    module.exports = factory(root, require('angular'));
+  } else if (typeof define === 'function' && define.amd) {
+    define(['angular'], function (angular) {
+      return (root.validationRepeatField = factory(root, angular));
+    });
+  } else {
+    root.validationRepeatField = factory(root, root.angular);
+  }
+}(this, function (window, angular) {
 
   var module = angular.module('ValidationRepeatField', []);
 
@@ -98,6 +108,8 @@
         }
       }
     }
-  })
+  });
 
-})(angular);
+  return module;
+
+}));
