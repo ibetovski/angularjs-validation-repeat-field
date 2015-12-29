@@ -24,7 +24,7 @@ Add `master` for password and `slave` for repeat password.
 Attributes you have to specify:
 * ng-model
 * validate-repeat-field
-* matching-role
+* role
 * name
 
 ```html
@@ -58,6 +58,14 @@ Attributes you have to specify:
 </form>
 ```
 
+The directive expects to find `form` in the current scope. If you use different form name you can tell the directive which name to look for:
+```html
+<form name="myForm">
+  <input form="myForm"
+   ...
+  />
+</form>
+
 If you like to print an error message in you HTML you can use [`ngMessages`](https://github.com/angular/bower-angular-messages):
 ```html
 <p ng-messages="form.email_repeat.$error" role="alert" style="color:red">
@@ -77,3 +85,12 @@ module.config(['validateRepeatFieldConfigProvider', function(validateRepeatField
 
 }]);
 ```
+
+### Tests:
+```bash
+$ npm install
+$ bower install
+$ npm test
+```
+
+### MIT License
