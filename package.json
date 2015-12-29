@@ -1,0 +1,36 @@
+{
+  "name": "angularjs-validation-repeat-field",
+  "version": "0.0.0",
+  "description": "AngularJS validation module which helps you match two fields' content.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibetovski/angularjs-validation-repeat-field.git"
+  },
+  "keywords": [
+    "angularjs",
+    "validation",
+    "repeat",
+    "match",
+    "field",
+    "password"
+  ],
+  "author": "Iliyan Betovski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ibetovski/angularjs-validation-repeat-field/issues"
+  },
+  "homepage": "https://github.com/ibetovski/angularjs-validation-repeat-field#readme",
+  "devDependencies": {
+    "gulp-minify": "0.0.5",
+    "karma": "^0.13.16",
+    "karma-mocha": "^0.2.1",
+    "karma-phantomjs-launcher": "^0.2.2",
+    "karma-sinon-chai": "^1.1.0",
+    "mocha": "^2.3.4",
+    "phantomjs": "^1.9.19"
+  }
+}

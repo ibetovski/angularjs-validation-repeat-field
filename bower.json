@@ -1,0 +1,31 @@
+{
+  "name": "angularjs-validation-repeat-field",
+  "description": "AngularJS validation module which helps you match two fields' content.",
+  "main": "dist/angularjs-validation-repeat-field-min.js",
+  "authors": [
+    "Iliyan Betovski"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angularjs",
+    "validation",
+    "repeat",
+    "match",
+    "field",
+    "password"
+  ],
+  "homepage": "https://github.com/ibetovski/angularjs-validation-repeat-field",
+  "moduleType": [
+    "globals",
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "spec",
+    "lib"
+  ]
+}
