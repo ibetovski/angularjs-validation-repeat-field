@@ -1,6 +1,6 @@
 {
   "name": "angularjs-validation-repeat-field",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "AngularJS validation module which helps you match two fields' content.",
   "main": "index.js",
   "scripts": {
